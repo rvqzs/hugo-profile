@@ -12,6 +12,7 @@
     fill: none;
 }
 
+
 /* dark mode */
 .dark {
     --background-color: var(--background-color-dark) !important;
