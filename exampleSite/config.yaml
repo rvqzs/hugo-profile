@@ -378,7 +378,8 @@ params:
       twitter: https://twitter.com
       instagram: https://instagram.com
       facebook: https://facebook.com
-
+      email: mailto:gurusabarisha@gmail.com
+      
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
