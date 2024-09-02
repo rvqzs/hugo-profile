@@ -8,8 +8,8 @@
     fill: none;
 }
 
-.light #footer-socialNetworks-email-svg-path{
-    fill: #000000;
+.light > #footer-socialNetworks-email-svg-path{
+    fill: none;
 }
 
 /* dark mode */
