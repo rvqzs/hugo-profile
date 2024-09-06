@@ -11,6 +11,16 @@
 
 #single .title small {
     opacity: 0.7;
+#single .video-container{
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex; /* Use Flexbox */
+}
+
+#single .video-container video{
+    align-self: center;
+    border-radius: 16px; 
+    display: block;
 }
 
 #single .featured-image {
