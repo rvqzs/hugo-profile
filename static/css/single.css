@@ -14,9 +14,9 @@
 }
 
 #single .video-container{
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    display: flex; /* Use Flexbox */
+    justify-content: center; 
+    align-items: center; 
+    display: flex; 
 }
 
 #single .video-container video{
