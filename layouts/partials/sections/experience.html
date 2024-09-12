@@ -62,12 +62,12 @@
                         {{ range .Site.Params.education.items }}
                         <div class="col-md-12 mb-4">
                             <div class="card d-flex flex-row">
-                                <img src="{{ .image }}" class="card-img-start" alt="{{ .school }}"
+                                <img src="{{ .image }}" class="card-img-start" alt="{{ .name }}"
                                     style="width: 120px; height: 120px; object-fit: cover;">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ .title }}</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">
-                                        <a href="{{ .schoolUrl }}" target="_blank">{{ .school }}</a>
+                                        <a href="{{ .schoolURL }}" target="_blank">{{ .schoolName }}</a>
                                     </h6>
                                     <p class="card-text">{{ .content | markdownify }}</p>
                                 </div>
